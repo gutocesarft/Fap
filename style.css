@@ -1,0 +1,75 @@
+@charset "UTF-8";
+:root {
+    
+        --cor0:   #732027; 
+        --cor1:   #2D3B40;
+        --cor2:   #BF2626;
+        --cor3:   #D93D3D; 
+        --cor4:   #F2F2F2;
+   }
+   *{
+       margin: 0px;
+       padding: 0px;
+   }
+
+   header {
+       background-color: var(--cor0);
+       background-image: url(logo\ fap3.png);
+       background-repeat: no-repeat;
+       padding-top: 125px;
+       
+   }
+  
+   body {
+       background-color: var(--cor1);
+   }
+   header > p {
+    color:  white;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 1.5px;
+    font-size: 1.3em;
+    font-variant: small-caps;
+    
+}
+   nav {
+       text-align: right;
+       padding-right: 50px;
+       background-color: var(--cor4);
+       
+   }
+
+   nav a{
+         color: var(--cor1);
+         text-decoration: none;
+         padding: 5px;
+         font-variant: small-caps;
+         font-size: 1.2em;
+         line-height: 2em;
+                
+   }
+   a:hover {
+       text-decoration: underline;
+   }
+
+   div {
+       display: inline-block;
+       background-color: var(--cor4);
+       width: 280px;
+       height: 280px;
+       padding: 50px;
+       padding-top: 40px;
+       margin: 30px;
+       border-radius: 5px;
+       margin-left: 20px;
+       margin-right: 20px;
+       
+   }
+   div.img01 {
+       background-image: url(img01.jpeg);
+       background-position: right center;
+       background-size: cover;
+    
+
+   }
+
