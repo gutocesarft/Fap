@@ -53,23 +53,16 @@
    }
 
    div {
-       display: inline-block;
-       background-color: var(--cor4);
-       width: 280px;
-       height: 280px;
-       padding: 50px;
-       padding-top: 40px;
-       margin: 30px;
-       border-radius: 5px;
-       margin-left: 20px;
-       margin-right: 20px;
-       
+                        
    }
-   div.img01 {
-       background-image: url(img01.jpeg);
-       background-position: right center;
-       background-size: cover;
-    
 
-   }
+   img { 
+       padding-top: 10px;      
+      margin: auto;
+      text-align: center;
+      display: block;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+      }
+
+      
 
