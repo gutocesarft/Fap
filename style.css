@@ -14,9 +14,8 @@
 
    header {
        background-color: var(--cor0);
-       background-image: url(logo\ fap3.png)
-       background-repeat: no-repeat;
-       
+       background-image: url(logo\ fap3.png);
+       background-repeat: no-repeat;       
        padding-top: 125px;       
    }
   
