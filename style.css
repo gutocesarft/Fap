@@ -11,11 +11,7 @@
        margin: 0px;
        padding: 0px;
    }
-   header picture{
-       padding-right: 100%vh;
-       
-   }
-   
+     
    body {
        background-color: var(--cor1);
    }
