@@ -49,7 +49,7 @@
    }
 
    nav.menu{
-    position: relative; 
+       min-width: 310px;
    }
    a:hover {
        text-decoration: underline;
