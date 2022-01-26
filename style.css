@@ -11,32 +11,37 @@
        margin: 0px;
        padding: 0px;
    }
-
    header {
-       background-color: var(--cor0);
-       background-image: url(logo\ fap3.png);
-       background-repeat: no-repeat;       
-       padding-top: 125px;       
+       padding-right: 100%vh;
    }
-  
+   header.img {
+       padding-right: 70px;
+   }
+
+   
    body {
        background-color: var(--cor1);
    }
-   header > p {
-    color:  white;
+   nav.cabecalho {
+       background-color: var(--cor0);
+       padding-top: 50px;
+   }
+}
+nav.cabecalho picture {
+    padding: 8px;
+}
+   img.img_cab {
+       padding: 8px;
+       padding-right: 150px;
+       box-shadow: none;
+   }      
+         
+   nav {
     text-align: right;
-    padding-right: 20px;
-    padding-top: 1.5px;
-    font-size: 1.3em;
-    font-variant: small-caps;
+    padding-right: 50px;
+    background-color: var(--cor4);
     
 }
-   nav {
-       text-align: right;
-       padding-right: 50px;
-       background-color: var(--cor4);
-       
-   }
 
    nav a{
          color: var(--cor1);
@@ -50,7 +55,9 @@
 
    nav.menu{
        min-width: 310px;
+       
    }
+     
    a:hover {
        text-decoration: underline;
    }
@@ -60,7 +67,7 @@
    }
 
    img { 
-       padding-top: 10px;      
+      padding-top: 10px;      
       margin: auto;
       text-align: center;
       display: block;
