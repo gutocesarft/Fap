@@ -47,6 +47,10 @@
          line-height: 2em;
                 
    }
+
+   nav.menu{
+    position: relative; 
+   }
    a:hover {
        text-decoration: underline;
    }
