@@ -16,6 +16,9 @@
        background-color: var(--cor1);
        overflow: hidden;
    }
+   header {
+       
+   }
    nav.cabecalho {
        background-color: var(--cor0);
        padding-top: 50px;
@@ -59,8 +62,8 @@ nav.cabecalho picture {
        text-decoration: underline;
    }
 
-   div {
-                        
+   nav ul li {
+       display: inline-block;
    }
 
    img { 
